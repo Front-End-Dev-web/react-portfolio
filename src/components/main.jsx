@@ -1,19 +1,19 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../app.css";
-import postImage1 from "./assets/post/img-post-1.jpg";
-import postImage2 from "./assets/post/img-post-2.jpg";
-import postImage3 from "./assets/post/img-post-3.jpg";
-import postImage4 from "./assets/post/img-post-4.jpg";
-import postImage5 from "./assets/post/img-post-5.jpg";
+import postImage1 from "../assets/post/img-post-1.jpg";
+import postImage2 from "../assets/post/img-post-2.jpg";
+import postImage3 from "../assets/post/img-post-3.jpg";
+import postImage4 from "../assets/post/img-post-4.jpg";
+import postImage5 from "../assets/post/img-post-5.jpg";
 
-import latestPost from "./assets/latest-post/latest-posts-1.jpg";
-import latestPost1 from "./assets/latest-post/latest-posts-2.jpg";
-import latestPost3 from "./assets/latest-post/latest-posts-3.jpg";
-import latestPost4 from "./assets/latest-post/latest-posts-4.jpg";
-import aboutImg from "./assets/about-img/about-me.jpg";
-import signupImg from "./assets/background-img/signing.png";
-import pic from "./assets/350x300.png";
+import latestPost from "../assets/latest-post/latest-posts-1.jpg";
+import latestPost1 from "../assets/latest-post/latest-posts-2.jpg";
+import latestPost3 from "../assets/latest-post/latest-posts-3.jpg";
+import latestPost4 from "../assets/latest-post/latest-posts-4.jpg";
+import aboutImg from "../assets/about-img/about-me.jpg";
+import signupImg from "../assets/background-img/signing.png";
+import pic from "../assets/350x300.png";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

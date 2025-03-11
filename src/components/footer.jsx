@@ -1,12 +1,12 @@
 import '../app.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import gImg1 from './assets/gallery/img-gallery-1.jpg'
-import gImg2 from './assets/gallery/img-gallery-2.jpg'
-import gImg3 from './assets/gallery/img-gallery-3.jpg'
-import gImg4 from './assets/gallery/img-gallery-4.jpg'
-import gImg5 from './assets/gallery/img-gallery-5.jpg'
-import gImg6 from './assets/gallery/img-gallery-6.jpg'
+import gImg1 from '../assets/gallery/img-gallery-1.jpg'
+import gImg2 from '../assets/gallery/img-gallery-2.jpg'
+import gImg3 from '../assets/gallery/img-gallery-3.jpg'
+import gImg4 from '../assets/gallery/img-gallery-4.jpg'
+import gImg5 from '../assets/gallery/img-gallery-5.jpg'
+import gImg6 from '../assets/gallery/img-gallery-6.jpg'
 
 export default function Footer(){
    return(<>

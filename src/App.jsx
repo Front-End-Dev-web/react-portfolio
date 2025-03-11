@@ -4,8 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/header'
 import Lgo from './assets/container-top-img/logo.png'
-import Main from '../../../../New folder (2)/blog-website/src/components/main'
-import Footer from '../../../../New folder (2)/blog-website/src/components/footer'
+import Main from './components/main'
+import Footer from './components/footer'
 function App() {
   const [count, setCount] = useState(0)
 
