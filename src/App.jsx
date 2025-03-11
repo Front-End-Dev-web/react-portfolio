@@ -35,8 +35,7 @@ function App() {
 
 
 <Header/>
-<Main></Main>
-<Footer/>
+
 </div>
     </>
   )
