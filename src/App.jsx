@@ -1,33 +1,43 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
+
+import './App.css'
+import Header from './components/header'
+import Lgo from './assets/container-top-img/logo.png'
+import Main from '../../../../New folder (2)/blog-website/src/components/main'
+import Footer from '../../../../New folder (2)/blog-website/src/components/footer'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+ <div id="container-top">
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4 img-fluid" src={Lgo} alt="" width="350"
+        height="110"/>
+
+      <div class="col-lg-6 col-sm-12 mx-auto">
+
+        <div class="d-grid gap-2 d-flex justify-content-center">
+          <a href="#" class="gap-2"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="px-3"><i class="fa-brands fa-twitter"></i></a>
+
+          <a href="#" class="gap-2"><i class="fa-brands fa-vimeo-v"></i></a>
+          <a href="#" class="px-3"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </div>
+  </div>
+  <div class="container">
+
+
+
+
+
+<Header/>
+<Main></Main>
+<Footer/>
+</div>
     </>
   )
 }
