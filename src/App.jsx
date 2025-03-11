@@ -1,9 +1,4 @@
-import { useState } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faSistrix
 
-} from "@fortawesome/free-brands-svg-icons";
 
 import './App.css'
 import Header from './components/header'
@@ -11,7 +6,7 @@ import Lgo from './assets/container-top-img/logo.png'
 import Main from './components/main'
 import Footer from './components/footer'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -38,7 +33,9 @@ function App() {
 
 
 
-<Header faSistrix={faSistrix}/>
+<Header />
+<Main/>
+<Footer/>
 
 </div>
     </>

@@ -15,14 +15,7 @@ import aboutImg from "../assets/about-img/about-me.jpg";
 import signupImg from "../assets/background-img/signing.png";
 import pic from "../assets/350x300.png";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faXTwitter,
-  faGithubAlt,
 
-} from "@fortawesome/free-brands-svg-icons";
 
 {
   /*-------some Code---------*/
