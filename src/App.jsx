@@ -1,5 +1,9 @@
 import { useState } from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faSistrix
 
+} from "@fortawesome/free-brands-svg-icons";
 
 import './App.css'
 import Header from './components/header'
@@ -34,7 +38,7 @@ function App() {
 
 
 
-<Header/>
+<Header faSistrix={faSistrix}/>
 
 </div>
     </>

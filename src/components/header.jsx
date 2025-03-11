@@ -1,11 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import '../app.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faSistrix
-
-} from "@fortawesome/free-brands-svg-icons";
 export default function Header(){
     return(
         <>
@@ -14,7 +9,7 @@ export default function Header(){
 
   
       <div>
-        <div id="header" className>
+        <div id="header" >
           <nav className="navbar navbar-expand-lg navbar-light  py-4 w-100">
             <div className="container-fluid">
               <a className="navbar-brand" href="#" />
