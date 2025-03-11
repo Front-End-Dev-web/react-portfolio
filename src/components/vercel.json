@@ -1,0 +1,9 @@
+{
+    "App": [
+      {
+        "source": "/:App",
+        "destination": "/App.jsx"
+      }
+    ]
+  }
+  
