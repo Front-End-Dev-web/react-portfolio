@@ -6,19 +6,19 @@ import Header from './components/header'
 import Main from './components/main'
 import Footer from './components/footer'
 import Page from './page'
-import { HashRouter,Routes, Route } from 'react-router-dom'
+import { BrowserRouter,Routes, Route } from 'react-router-dom'
 
 function App() {
   
   return (
     <>
-<HashRouter>
+<BrowserRouter basename='/create-reat-website'>
 <Routes>
 <Route path='/' element ={<Page/>}>
 <Route index element ={<Main/>}/>
 </Route>
 </Routes>
-</HashRouter>
+</BrowserRouter>
     </>
   )
 }
