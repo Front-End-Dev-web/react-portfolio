@@ -1,4 +1,4 @@
-import {Outlet} from 'react'
+import {Outlet} from 'react-router-dom'
 import Footer from "./components/footer";
 import Header from "./components/header";
 
@@ -7,7 +7,7 @@ export default function Page(){
         <>
         
         <Header></Header>
-        <Outlet></Outlet>
+<Outlet></Outlet>
 <Footer/>        
         </>
     )
