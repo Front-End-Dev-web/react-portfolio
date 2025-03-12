@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-<BrowserRouter basename='/create-reat-website'>
+<BrowserRouter >
 <Routes>
 <Route path='/' element ={<Page/>}>
 <Route index element ={<Main/>}/>
