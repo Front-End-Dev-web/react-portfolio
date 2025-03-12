@@ -15,8 +15,8 @@ import usersearch from '../assets/services_icon/search-user.png'
 
 import productIco from '../assets/services_icon/cubes (1).png'
 
-import { NavLink } from 'react-router-dom'
-const Main=()=>{
+
+const Menu=()=>{
 
     return(
         <>
@@ -427,4 +427,4 @@ const Main=()=>{
         </>
     )
 }
-export default Main
+export default Menu

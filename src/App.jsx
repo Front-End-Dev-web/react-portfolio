@@ -10,9 +10,9 @@ function App() {
     <>
 <Router >
 <Routes>
-<Route path='/' element ={<Page/>}>
-<Route index element ={<Main/>}/>
-</Route>
+<Route path='/' element ={<Page/>}/>
+
+
 </Routes>
 </Router>
     </>
