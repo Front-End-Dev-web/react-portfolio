@@ -1,5 +1,4 @@
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +10,28 @@ html{
 }
 body{
   background-color: #F5F5F5;
+
+
+  
+
+}
+h2,h1,h3,h4,h5{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p +  span{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+  
 }
 #header{
   height: 70px;
@@ -64,6 +85,7 @@ font-size: 22px;
   padding: 10px;
   cursor:pointer;
   color: white;
+  box-shadow: 8px 8px 0px 0px rgba(204, 204, 204, 0.774);
 }
 #header #navbar .nav-links ul li:nth-child(1) a{
   color: #000000;
@@ -115,6 +137,8 @@ border-radius: 50px;
   font-weight: 400;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
+ 
 }
 
 #hero .hero .hero-button button:nth-child(1){
@@ -125,7 +149,7 @@ border-radius: 50px;
 
 
 #hero .hero .hero-button a{
-  /* background-color:  #000000; */
+  background-color:  rgba(204, 204, 204, 0.774);
   /* box-shadow: 0px 3px 0px 0px #000000 ; */
   color: white;
   text-decoration: none;
@@ -139,7 +163,7 @@ border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000000;
+
 }
 #hero .hero .hero-button a:hover{
   background-color:  #000000;
@@ -811,7 +835,7 @@ background-repeat: no-repeat;
 
 }
 .testimonal-card .testimonal-card-1  .testimonal-first-card span{
-  font-size: 18px;
+  font-size: 14px;
 }
 .testimonal-card .testimonal-card-1  .testimonal-second-card{
   display: flex;
@@ -830,7 +854,7 @@ background-repeat: no-repeat;
       font-size: 18px;
   }
   span{
-      font-size: 15px;
+      font-size: 13px;
   }
 }
 
@@ -857,7 +881,10 @@ text-align: center;
 .testimonal-card-2 button:nth-child(1){
   background-color: #000000;
 }
-.testimonal-card-2 button:nth-child(2):hover{
+.testimonal-card-2 button:nth-child(2){
+ background: rgba(204, 204, 204, 0.774)
+}
+.testimonal-card-2 button:hover{
   background-color: #000000;
 }
 
@@ -913,6 +940,7 @@ p{
   height: 360px;
   width: 300px;
   background: white;
+  box-shadow: 0px 0px 5px 5px rgba(204, 204, 204, 0.774);
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -929,7 +957,8 @@ p{
   border-radius: 8px;
 }
 .blog-card .blog-text{
-  margin-bottom: 30px;
+  margin: 20px 0;
+  padding: 0 5px;
 span{
   font-size: 18px;
   color:gray;
@@ -938,7 +967,7 @@ span{
 .blog-card .blog-text p{
   margin-top: 10px;
   text-align: start;
-  font-size: 15px;
+  font-size: 14px;
 }
 .blog-card .blog-button{
   display: flex;
@@ -950,9 +979,10 @@ span{
 .blog-card .blog-button button{
   height: 40px;
   width: 100px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #000000;
   border: none;
+  font-size:13px;
   cursor: pointer;
   color: white;
 }
