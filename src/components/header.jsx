@@ -1,5 +1,5 @@
 import '../index.css'
-export default function Header(){
+const Header=()=>{
     return(
         <>
         <header id="header">
@@ -41,3 +41,5 @@ export default function Header(){
         </>
     )
 }
+
+export default Header;
